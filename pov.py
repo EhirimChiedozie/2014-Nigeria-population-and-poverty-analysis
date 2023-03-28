@@ -1,7 +1,7 @@
 import pandas
 from matplotlib import pyplot as plt
 
-df = pandas.read_csv('data_files/povertyrate.csv')
+df = pandas.read_csv('povertyrate.csv')#From the povertyrate.csv file
 #print(df.isna().sum()). Checks for missing values
 del df['HASC_2']
 del df['CCA_2']
